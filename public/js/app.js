@@ -1985,7 +1985,6 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    console.log('Component mounted.');
     this.getData();
   },
   methods: {
@@ -53019,8 +53018,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Web Development\laravel\vuedataviewer\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Web Development\laravel\vuedataviewer\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /media/mishajib/SHAJIB(HDD)/web-development/laravel/vuedataviewer/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /media/mishajib/SHAJIB(HDD)/web-development/laravel/vuedataviewer/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

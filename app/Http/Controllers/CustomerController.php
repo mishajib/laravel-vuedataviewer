@@ -9,12 +9,12 @@ class CustomerController extends Controller
     /**
      * Handle the incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param \Illuminate\Http\Request $request
+     * @return \Illuminate\Routing\ControllerMiddlewareOptions
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        return $this->middleware('auth');
     }
 
     public function __invoke(Request $request)
